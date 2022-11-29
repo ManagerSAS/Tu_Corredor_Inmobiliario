@@ -5,9 +5,9 @@
                 <div class="row justify-content-between align-items-center" >
                     <!-- Header Logo Start -->
                     <div class="col-auto d-flex">
-                        <div class="header-logo ml-10 mt-5">
+                        <div class="header-logo ml-lg-10 mt-lg-5 ml-md-10 mt-md-5">
                             <n-link to="/">
-                                <v-img width="200" class="dark-logo" src="./logo.png" alt="Agency Logo"></v-img>
+                                <img height="50" class="dark-logo" src="../static/logo.png" alt="Agency Logo"/>
                             </n-link>
                         </div>
                     </div>
@@ -19,22 +19,25 @@
                             <nav class="site-main-menu">
                                 <ul>
                                     <li>
-                                        <n-link style="text-decoration: none;" to="#Advantage" ><v-icon color="#9c0c04">mdi-home mdi-48px</v-icon> </n-link>
+                                        <n-link style="text-decoration: none;" to="/" ><v-icon color="#9c0c04">mdi-home mdi-36px</v-icon> </n-link>
                                     </li>
                                     <li>
-                                        <n-link style="text-decoration: none" to="#Presentation">¿Quienés Somos? </n-link>
+                                        <n-link style="text-decoration: none" to="#about">¿Quienés Somos? </n-link>
                                     </li>
                                     <li>
-                                        <n-link style="text-decoration: none" to="#Tarjeta">Inmuebles</n-link>
+                                        <n-link style="text-decoration: none" to="#featured">Inmuebles</n-link>
                                     </li>
                                     <li>
-                                        <n-link style="text-decoration: none" to="#Questions">Consigna tu Inmueble</n-link>
+                                        <n-link style="text-decoration: none" to="#property">Consigna tu Inmueble</n-link>
+                                    </li>
+                                    <li>
+                                        <n-link style="text-decoration: none" to="#contact">Contáctanos</n-link>
                                     </li>
                                 </ul>
                             </nav>
                         </div>
                 
-                        <div class="header-mobile-menu-toggle d-xl-none d-md-none ml-sm-2">
+                        <div class="header-mobile-menu-toggle d-xl-none d-md-none ml-sm-2 mt-5">
                             <button aria-label="Menu hamburguesa" class="toggle" @click="mobiletoggleClass('addClass', 'show-mobile-menu')">
                                 <i class="icon-top"></i>
                                 <i class="icon-middle"></i>

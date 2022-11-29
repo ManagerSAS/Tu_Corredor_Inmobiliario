@@ -7,9 +7,9 @@
                 </div>
                 <v-row class="mt-5">
                     <v-col v-for="({icon,text}, index) in Services" :key="index" cols="12" sm="12" md="3" lg="3">
-                        <v-card class="ContentCards rounded-xl pt-10" >
-                            <v-img width="100px" :src="icon" alt="" srcset=""/>
-                            <p class="text-services mt-10">{{text}}</p>
+                        <v-card class="ContentCards rounded-xl pt-10 " >
+                            <v-img width="90px" :src="icon" alt="" srcset=""/>
+                            <p class="text-services mt-10 pa-1">{{text}}</p>
                         </v-card>
                     </v-col>
                 </v-row>

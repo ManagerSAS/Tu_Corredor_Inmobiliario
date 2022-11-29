@@ -1,5 +1,5 @@
 <template>
-    <v-container fluid>
+    <v-container fluid id="featured">
         <v-row justify="center" align="center">
             <v-col justify="center" align="center" cols="12" sm="12" md="8" lg="8" xl="8">
                 <div class="mt-5 mb-5 text-titles">
@@ -8,7 +8,7 @@
                 <VueSlickCarousel v-bind="settings"  justify="center" align="center">
                     <div justify="center" align="center" v-for="({id,name,src},index) in Property"
                     :key="index" >
-                        <v-card class="ContentCards rounded-xl pa-5 ma-5 mt-5 mb-5">
+                        <v-card class="ContentCards rounded-xl pa-5 ma-5 mt-5 mb-5 " >
                             <div >
                                 <v-img class="rounded-xl" height="160" :lazy-src="src" :src="src" />
                                 <p class="text-services mt-2 mb-2">{{name}}</p>
@@ -120,7 +120,7 @@
                     {
                     "breakpoint": 768,
                         "settings": {
-                            "slidesToShow": 2,
+                            "slidesToShow": 1,
                             "slidesToScroll": 1,
                             "infinite": true,
                             "dots": false,
@@ -146,6 +146,16 @@
                             "arrows":false
                         }
                     },
+                    {
+                    "breakpoint": 768,
+                        "settings": {
+                            "slidesToShow": 1,
+                            "slidesToScroll": 1,
+                            "infinite": true,
+                            "dots": false,
+                            "arrows":false
+                        }
+                    }
                 ]
             },
         }

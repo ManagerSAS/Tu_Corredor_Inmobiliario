@@ -1,5 +1,5 @@
 <template>
-   <v-container fluid >
+   <v-container fluid id="about" >
         <v-row justify="center" align="center">
             <v-col cols="12" sm="12" md="9" lg="9">
                 <div class="VisualizarFooterPc">

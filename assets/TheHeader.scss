@@ -73,7 +73,7 @@
         z-index: 111;
 
         & .header-inner {
-            background: linear-gradient(to top, rgba(white, 0.2) 0%, white 100%);
+            background: linear-gradient(to top, rgba(white, 0.8) 50%, white 100%);
         }
     }
 
@@ -118,7 +118,7 @@
             position: relative;
 
             & > a {
-                font-size: 30px;
+                font-size: 26px;
                 font-weight: 500;
                 line-height: 1.375;
                 display: block;

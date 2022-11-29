@@ -15,16 +15,19 @@
                     <nav class="offcanvas-navigation" id="offcanvas-navigation">
                         <ul>
                             <li>
-                                <n-link style="text-decoration: none;" to="#Advantage" ><v-icon color="#9c0c04">mdi-home mdi-48px</v-icon> </n-link>
+                                <n-link style="text-decoration: none;" to="#Advantage" ><v-icon color="#9c0c04">mdi-home mdi-36px</v-icon> </n-link>
                             </li>
                             <li>
-                                <n-link style="text-decoration: none" to="#Presentation">¿Quienés Somos? </n-link>
+                                <n-link style="text-decoration: none" to="#about">¿Quienés Somos? </n-link>
                             </li>
                             <li>
-                                <n-link style="text-decoration: none" to="#Tarjeta">Inmuebles</n-link>
+                                <n-link style="text-decoration: none" to="#featured">Inmuebles</n-link>
                             </li>
                             <li>
-                                <n-link style="text-decoration: none" to="#Questions">Consigna tu Inmueble</n-link>
+                                <n-link style="text-decoration: none" to="#property">Consigna tu Inmueble</n-link>
+                            </li>
+                            <li>
+                                <n-link style="text-decoration: none" to="#contact">Contáctanos</n-link>
                             </li>
                         </ul>
                     </nav>
